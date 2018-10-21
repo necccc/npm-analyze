@@ -17,3 +17,4 @@ $ npm-analyze
 
 Depending on the size of your project this may take a while, but it will show you some stats like this:
 
+![npm-analyze result](https://raw.githubusercontent.com/necccc/npm-analyze/master/example/result.png)
