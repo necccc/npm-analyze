@@ -1,0 +1,35 @@
+{
+  "name": "npm-analyze",
+  "version": "1.0.0",
+  "description": "CLI tool to analyze the dependencies of your project. Size, count, and overhead in modules",
+  "main": "index.js",
+  "bin": {
+    "npm-analyze": "./bin/npm-analyze"
+  },
+  "scripts": {
+    "lint": "npx standard --fix"
+  },
+  "keywords": [
+    "analyze",
+    "dependencies",
+    "size",
+    "modules",
+    "packages",
+    "overhead"
+  ],
+  "author": "nec@shell8.net",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "columnify": "^1.5.4",
+    "escape-string-regexp": "^1.0.5",
+    "human-format": "^0.10.1",
+    "minimatch": "^3.0.4",
+    "nodejs-fs-utils": "^1.1.1",
+    "numeral": "^2.0.6",
+    "ora": "^3.0.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
