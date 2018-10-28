@@ -19,7 +19,7 @@ $ npm-analyze
 
 This will analyze your project for files not explicitly related to the functionality for your package and show you everything that should not be part of an npm package.
 
-![npm-analyze result](https://raw.githubusercontent.com/necccc/npm-analyze/master/example/result-project.png)
+![npm-analyze result](https://raw.githubusercontent.com/necccc/npm-analyze/master/example/result-projects.png)
 
 **Information about other deps, in your project**
 
