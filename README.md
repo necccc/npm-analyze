@@ -17,9 +17,11 @@ Just run the command in the folder you wish to check:
 $ npm-analyze
 ```
 
-**Other deps, in your project**
-
 This will analyze your project for files not explicitly related to the functionality for your package and show you everything that should not be part of an npm package.
+
+![npm-analyze result](https://raw.githubusercontent.com/necccc/npm-analyze/master/example/result-project.png)
+
+**Information about other deps, in your project**
 
 ```
 $ npm-analyze --deps
@@ -27,4 +29,5 @@ $ npm-analyze --deps
 
 Depending on the size of the project this may take a while, but it will show you some stats like this:
 
-![npm-analyze result](https://raw.githubusercontent.com/necccc/npm-analyze/master/example/result.png)
+![npm-analyze result](https://raw.githubusercontent.com/necccc/npm-analyze/master/example/result-deps.png)
+
