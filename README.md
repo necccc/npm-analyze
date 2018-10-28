@@ -31,3 +31,12 @@ Depending on the size of the project this may take a while, but it will show you
 
 ![npm-analyze result](https://raw.githubusercontent.com/necccc/npm-analyze/master/example/result-deps.png)
 
+
+### JSON output
+
+To get the raw data in JSON, just add the `--json` switch to the command;
+
+```
+$ npm-analyze --json
+$ npm-analyze --json --deps
+```
