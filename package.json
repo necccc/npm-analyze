@@ -1,6 +1,6 @@
 {
   "name": "npm-analyze",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CLI tool to analyze the dependencies of your project. Size, count, and overhead in modules",
   "main": "index.js",
   "bin": {
