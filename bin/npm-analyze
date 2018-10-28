@@ -1,3 +1,14 @@
 #!/usr/bin/env node
 
-const analizer = require('../index.js')
+const argv = require('minimist')(process.argv.slice(2))
+
+const depCheck = argv['deps'] || false
+const jsonOutput = argv['json'] || false
+
+if (depCheck) {
+	const analizer = require('../lib/analyze-deps')
+	analizer({jsonOutput})
+} else {
+	const analizer = require('../lib/analyze-project')
+	analizer({jsonOutput})
+}

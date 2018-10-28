@@ -1,0 +1,10 @@
+{
+	"dependencyCount": "Dependencies in package.json",
+	"totalModuleCount": "Total module count",
+	"nodeModuleSize": "Total node_modules size",
+	"unusedFolderSize": "Unused folders total size",
+	"unusedFileSize": "Unused files total size",
+	"averageOverheadPerModule": "Average extra weight on each module",
+	"packageFileCount": "File count in package",
+	"unusedFileCount": "Unused file count"
+}
